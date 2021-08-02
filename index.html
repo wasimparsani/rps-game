@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale-1.0"/> 
+  <title> Rock Paper Scissor </title> 
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+  <h1 style="color: white; font-size: 3em;">LETS PLAY !!</h1>
+  <ul id="names">
+    <li> Rock</li>
+    <li> Paper</li>
+    <li> Scissor</li>
+  </ul>
+  <ul id="choices">
+    <li id="rock" onclick="game(this)">
+      <img src="images/rock.png" alt="rock"/>
+    </li>
+    <li id="paper" onclick="game(this)">
+      <img src="images/paper.png" alt="paper"/>
+    </li>
+    <li id="scissor" onclick="game(this)">
+      <img src="images/scissor.png" alt="scissor"/>
+    </li>
+  </ul>
+  <p>Select a move from above to start!<br><span></span></p>
+  <ul id="scores">
+    <li id="user"> 
+      <span class="icon-user"></span>
+      <ul id="lives">
+        <li><span class="icon-heart"></span></li>
+        <li><span class="icon-heart"></span></li>
+        <li><span class="icon-heart"></span></li>
+      </ul>
+    </li>
+    <li id="bot"> 
+      <span class="icon-android"></span>
+      <ul id="lives">
+        <li><span class="icon-heart"></span></li>
+        <li><span class="icon-heart"></span></li>
+        <li><span class="icon-heart"></span></li>
+      </ul>
+    </li>
+  </ul>
+<br>
+  <p>
+    Copyright &copy;
+    <script>document.write(new Date().getFullYear());
+    </script> All rights reserved | Made <i aria-hidden="true"></i> by <a style="color: white;" href="https://www.google.com/search?q=wasim+parsani&oq=Wasim+Parsani&aqs=chrome.0.69i59j69i61j69i60l2.3245j0j7&sourceid=chrome&ie=UTF-8"
+      >WASIM A PARSANI</a>
+  </p>
+  <script src="js/script.js"></script>
+</body>
+</html>
